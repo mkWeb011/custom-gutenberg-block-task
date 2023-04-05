@@ -1,0 +1,33 @@
+{
+    "name": "marko/task-block",
+    "title": "Task Block",
+    "description": "Custom Gutenberg block task",
+    "style": [ "file:./style.css" ],
+    "category": "formatting",
+    "icon": "smiley",
+    "keywords": ["test"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "blocks/task/block.php"
+    },
+    "styles": [],
+    "supports": {
+        "color": {
+            "text": true,
+            "background": true,
+            "gradients": true,
+            "link": true
+        },
+        "alignText": true,
+        "fullHeight": false,
+        "typography": true 
+    },
+        "fontSize": {
+            "type": "number", 
+            "default": 16
+        },
+        "fontFamily": { 
+            "type": "string",
+            "default": "Arial, sans-serif"
+        }
+    }

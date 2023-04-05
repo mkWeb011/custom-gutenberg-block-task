@@ -2,16 +2,19 @@
     "name": "marko/task-block",
     "title": "Task Block",
     "description": "Custom Gutenberg block task",
-    "style": [ "file:./style.css" ],
     "category": "formatting",
+    "style": [ "file:./index.css" ],   
     "icon": "smiley",
-    "keywords": ["test"],
+    "keywords": ["task-block"],
     "acf": {
         "mode": "preview",
         "renderTemplate": "blocks/task/block.php"
     },
     "styles": [],
     "supports": {
+        "align": true,
+        "anchor": true,
+        "alignContent": true,
         "color": {
             "text": true,
             "background": true,

@@ -4,6 +4,8 @@
  * Task Block
  */
 
+ // enqueue styles for the block
+
 // $data - expose to render template
 $data = array(
 	'task_block_title' => get_field('task_block_title')

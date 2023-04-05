@@ -1,0 +1,136 @@
+
+
+.block-task {
+    padding: 4.5em 0;
+}
+
+@media (min-width: 1200px){
+    .block-task ul {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .block-task h1 {
+        font-size: 4.4rem;
+    }
+}
+
+@media (min-width: 640px) {
+    .block-task li.task-list-item  {
+        width: 50%;
+    }
+}
+
+@media (min-width: 960px) {
+    .block-task li.task-list-item {
+        width: 33.33%;
+    }
+}
+
+.block-task h1 {
+    text-align: center;
+    font-weight: 300;
+}
+
+.block-task ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+}
+
+.block-task li.task-list-item  {
+    display: flex;
+    min-width: 33.333%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.block-task.has-text-align-center .list-item-content {
+    align-items: center;
+    text-align: center;
+}
+
+.block-task.has-text-align-center .list-item-content img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block-task.has-text-align-right .list-item-content {
+    align-items: flex-start;
+    text-align: right;
+}
+
+.block-task.has-text-align-right .list-item-content img {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.block-task.has-text-align-left .list-item-content {
+    align-items: flex-end;
+    text-align: left;
+}
+
+.block-task.has-text-align-left .list-item-content img {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.block-task .list-item-content {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    width: 100%;
+    align-items: center;
+}
+
+.block-task .list-item-content img {
+    width: 200px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.block-task .list-item-content h3 {
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.block-task .list-item-content p {
+   text-align: center;
+}
+
+.block-task .list-item-content .button {
+    display: flex;
+    padding: 0.75em;
+    background-color: #a70606;
+    color: #ffffff;
+    text-decoration: none;
+    width: 200px;
+    max-width: 95%;
+    transition: background-color .3s ease;
+    text-align: center;
+    height: 30px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+}
+
+.block-task .list-item-content .button:hover {
+    background-color: #fff;
+    color: #fff; 
+    border: 1px solid #72abd1; 
+    box-shadow: 0px 0px 10px #874a4a; 
+    cursor: pointer; 
+    font-size: 15px;
+}
+
+.block-task .list-item-content .button:hover {
+    background-color: #790505;
+}

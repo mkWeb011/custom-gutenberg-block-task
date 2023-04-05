@@ -11,16 +11,9 @@ $data = array(
 	'task_block_title' => get_field('task_block_title')
 );
 
-// Creating dynamic ID
-$block_id = 'task-' . $block['id'];
-
-// passing custom id
-if (!empty($block['anchor'])) {
-	$block_id = $block['anchor'];
-}
-// Block classes
+// Creating classes for styling
 $classes = ['block-task'];
-$block_style = ''; // declare the variable here
+$block_style = '';  //empty variable for populating
 if (!empty($block['className'])) {
 	$classes = array_merge($classes, explode(' ', $block['className']));
 }

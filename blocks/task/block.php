@@ -41,6 +41,7 @@ get_template_part(
 		'data'			=> $data,
 		'block_id'		=> $block_id,
 		'block_style'	=> $block_style,
-		'classes'		=> $classes
+		'classes'		=> $classes,
+		'dragan'		=> $did_scripts
 	)
 );

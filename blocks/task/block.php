@@ -42,6 +42,5 @@ get_template_part(
 		'block_id'		=> $block_id,
 		'block_style'	=> $block_style,
 		'classes'		=> $classes,
-		'dragan'		=> $did_scripts
 	)
 );
